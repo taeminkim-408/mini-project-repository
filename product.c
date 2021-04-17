@@ -156,7 +156,7 @@ void searchfruit2(Data *s, int count){
  }
  }
 if(scnt == 0) printf("=> 검색된 데이터 없음!");
- printf("\n");
+ printf("\n");// 해결
 }
 void searchfruit3(Data *s, int count){
   int scnt = 0;// 행복
