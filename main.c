@@ -64,7 +64,7 @@
             }
             if(check==2){
               searchfruit2(slist, index);  
-            }
+            }// 번호에 따라 달라지게 하는 것
             if(check==3){
               searchfruit3(slist, index);  
             }
