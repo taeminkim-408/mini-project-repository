@@ -171,8 +171,7 @@ void searchfruit3(Data *s, int count){
     printf("%2d ", i+1);
     readfruit(&s[i]);
     printf("\n");
-    scnt++;
- }
+    scnt++; }//해결해보장
  }
 if(scnt == 0) printf("=> 검색된 데이터 없음!");
  printf("\n");
