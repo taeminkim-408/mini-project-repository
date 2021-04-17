@@ -169,7 +169,7 @@ void searchfruit3(Data *s, int count){
     if(s[i].price == -1) continue;
     if(s[i].starchoose== search){
     printf("%2d ", i+1);
-    readfruit(&s[i]);
+    readfruit(&s[i]);// 해결
     printf("\n");
     scnt++; }//해결해보장
  }
