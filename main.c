@@ -72,5 +72,5 @@
         }
       }
                 printf("종료됨!\n");
-                return 0;
+                return 0;// 끝나면 멈추기
   }
