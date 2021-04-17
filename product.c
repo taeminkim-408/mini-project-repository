@@ -176,4 +176,4 @@ void searchfruit3(Data *s, int count){
  }
 if(scnt == 0) printf("=> 검색된 데이터 없음!");
  printf("\n");
-}
+}// 나오게 하기
