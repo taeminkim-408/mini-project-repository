@@ -68,7 +68,7 @@
             if(check==3){
               searchfruit3(slist, index);  
             }
-          
+          //함수의 마지막 
         }
       }
                 printf("종료됨!\n");
