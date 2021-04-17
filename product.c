@@ -163,7 +163,7 @@ void searchfruit3(Data *s, int count){
   int search;
     printf("검색할 별점 수는? ");
     scanf("%d", &search);
-    printf("*****************\n");
+    printf("*****************\n");//ㅇㅋ
     printf("================================\n");
   for(int i =0; i <count ; i++){
     if(s[i].price == -1) continue;
