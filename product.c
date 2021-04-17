@@ -161,7 +161,7 @@ if(scnt == 0) printf("=> 검색된 데이터 없음!");
 void searchfruit3(Data *s, int count){
   int scnt = 0;
   int search;
-    printf("검색할 별점 수는? ");
+    printf("검색할 별점 수는? ");//chexk
     scanf("%d", &search);
     printf("*****************\n");//ㅇㅋ
     printf("================================\n");
