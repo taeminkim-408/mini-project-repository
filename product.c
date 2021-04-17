@@ -168,7 +168,7 @@ void searchfruit3(Data *s, int count){
   for(int i =0; i <count ; i++){
     if(s[i].price == -1) continue;
     if(s[i].starchoose== search){
-    printf("%2d ", i+1);
+    printf("%2d ", i+1);// 저장
     readfruit(&s[i]);// 해결
     printf("\n");
     scnt++; }//해결해보장
